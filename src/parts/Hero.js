@@ -29,24 +29,22 @@ export default function Hero(props) {
                         love back into your life
                     </h1>
                     <p className="font-weight-light text-gray-500 w-75" style={{marginBottom: 40, lineHeight:"170%"}}>
-                    We provided you the pleasure you need so that you 
-                    don’t think of any problems back at home. Let’s make
-                    another memorable moments with us.
+                    We provided you the pleasure you need so that you don’t think of any problems back at home. Let’s make another memorable moments with us.
                     </p>
                     <Button className="btn px-5 font-weight-bold" hasShadow isPrimary onClick={showMostPicked}>
                         Show Me
                     </Button>
 
                     <div className="row" style={{marginTop: 64}}>
-                        <div className="col-auto" style={{marginRight: 16}}>
+                        <div className="col-auto" style={{marginRight: 10}}>
                             <img width="38" height="38" src={IcTravel} alt={`${props.data.travelers} Travelers`}/>
-                            <h6 className="mt-3 font-weight-bold">
+                            <h6 className="mt-3 font-weight-medium">
                                 {numberFormat(props.data.travelers)} <span className="text-gray-500 font-weight-light">travelers</span>
                             </h6>
                         </div>
-                        <div className="col-auto" style={{marginRight: 16}}>
+                        <div className="col-auto" style={{marginRight: 10}}>
                             <img width="38" height="38" src={IcDest} alt={`${props.data.destination} Destination`}/>
-                            <h6 className="mt-3 font-weight-bold">
+                            <h6 className="mt-3 font-weight-medium">
                                 {numberFormat(props.data.destination)} <span className="text-gray-500 font-weight-light">destination</span>
                             </h6>
                         </div>

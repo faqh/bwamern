@@ -5,7 +5,7 @@ import Button from 'elements/Button'
 export default function MostPicked(props) {
     return (
         <section className="container" ref={props.refMostPicked}>
-            <h4 className="mb-4 font-weight-bold">Most Picked</h4>
+            <h4 className="mb-4 font-weight-medium">Most Picked</h4>
             <div className="container-grid">
                 {
                     props.data.map((item, index) => {
@@ -20,7 +20,7 @@ export default function MostPicked(props) {
                                             <img src={item.imageUrl} alt={item.name} className="img-cover" />
                                         </figure>
                                         <div className="meta-wrapper">
-                                            <Button type="link" className="streched-link d-block text-white" href={`/proporties/${item.id}`}>
+                                            <Button type="link" className="stretched-link d-block text-white" href={`/proporties/${item.id}`}>
                                                 <h5>{item.name}</h5>
                                             </Button>
                                             <span>
