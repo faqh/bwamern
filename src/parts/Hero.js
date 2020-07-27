@@ -28,7 +28,7 @@ export default function Hero(props) {
                         Vacation brings health and<br/>
                         love back into your life
                     </h1>
-                    <p className="font-weight-light text-gray-500 w-75" style={{marginBottom: 40, lineHeight:"170%"}}>
+                    <p className="font-weight-light text-gray-500 w-75" style={{marginBottom: 32, lineHeight:"170%"}}>
                     We provided you the pleasure you need so that you don’t think of any problems back at home. Let’s make another memorable moments with us.
                     </p>
                     <Button className="btn px-5 font-weight-bold" hasShadow isPrimary onClick={showMostPicked}>
